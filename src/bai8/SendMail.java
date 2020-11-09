@@ -62,7 +62,7 @@ public class SendMail extends HttpServlet {
 		props.put("mail.store.protocol", "pop3");
 		props.put("mail.transport.protocol", "smtp");
 		final String username = "thoainguyen6032@gmail.com";
-		final String password = "VoiceHatachi10100";
+		final String password = "yourpassword";
 		Session session = Session.getDefaultInstance(props, new Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
 				return new PasswordAuthentication(username, password);
